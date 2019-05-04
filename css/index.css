@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,61 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* new styles */
+
+header nav {
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+header nav a{
+    text-decoration:none;
+    color: black;
+    font-size: small;
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+.img-divider{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+/* ist this the best way to overide the black backgorunf color? */
+.box1{
+    background: teal !important;
+}
+
+.box2 {
+    background: gold !important;
+}
+.box3 {
+    background: cadetblue !important;
+}
+.box4 {
+    background: coral !important;
+}
+.box5 {
+    background: crimson !important;
+}
+.box6 {
+    background: forestgreen !important;
+}
+.box7 {
+    background: darkorchid !important;
+}
+.box8 {
+    background: hotpink !important;
+}
+.box9 {
+    background: indigo !important;
+}
+
+.box10 {
+    background: dodgerblue !important;
 }
