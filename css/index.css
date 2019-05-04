@@ -316,6 +316,10 @@ p {
 
 .parent-box {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
+.parent-box .child-box{
+    width: 48%;
+}
